@@ -1,3 +1,4 @@
+if not exist "firsttime.acd" echo true > firsttime.acd > NUL
 @echo off
 ::          888 d8b                                                          888                    
 ::          888 Y8P                                                          888                    
