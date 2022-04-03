@@ -58,3 +58,12 @@ echo Completed Setting Up!
 echo Start 
 
 :create
+echo Create Alias
+echo What do you want the command for the alias to be?
+echo (e.g. command)
+set /p alcmd="> "
+echo What do you want to be the command that runs?
+echo (e.g. ls) or (e.g. "X:\File\File.bat")
+echo Succefully Created Alias!
+pause
+exit
