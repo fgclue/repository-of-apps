@@ -12,3 +12,14 @@ echo Hi, What do you want to do today?
 set /p whatd="> "
 
 if %whatd% == "help" goto ynh
+if %whatd% == "create" goto pain
+if %whatd% == "exit" exit
+else goto start
+
+:ynh
+echo Help
+echo create - Create a C++ File
+echo exit - Leave
+goto start
+
+:pain
