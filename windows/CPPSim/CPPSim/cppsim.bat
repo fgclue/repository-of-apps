@@ -14,7 +14,6 @@ set /p whatd="> "
 if %whatd% == "help" goto ynh
 if %whatd% == "create" goto pain
 if %whatd% == "exit" exit
-else goto start
 
 :ynh
 echo Help
