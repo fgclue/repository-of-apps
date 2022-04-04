@@ -23,3 +23,15 @@ echo exit - Leave
 goto start
 
 :pain
+echo.
+echo C++ Simulator Code Creator
+echo.
+echo What is the name of the code?
+echo (e.g. hello) (No file handles)
+set /p nc="> "
+clear
+:codeloop
+set /p code="> "
+echo %code% >> %nc%.cpp
+if "%code%" == "exit" exit
+goto codeloop
