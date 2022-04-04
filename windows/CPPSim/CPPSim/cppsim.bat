@@ -35,3 +35,5 @@ set /p code="> "
 echo %code% >> %nc%.cpp
 if "%code%" == "exit" exit
 goto codeloop
+:ty
+echo ty
